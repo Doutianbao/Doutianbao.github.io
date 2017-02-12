@@ -6,15 +6,51 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>categories | Hexo</title>
+  <title>Hexo+github | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://yoursite.com/categories/index.html">
+  <meta name="description" content="hexo+github 搭建个人免费博客，值得拥有：）
+
+此流程在debian 8.7 x64下运行
+准备工作Github
+注册个Github帐号。
+这是一个全球程序员搞基平台
+有众多优秀开源项目
+大牛无数，举个栗子： NASA， Google, Microsoft …
+
+
+建立一个与你名字（注册名）相对应的仓库。
+举个栗子： 我的名字是Doutianbao, 所以仓库名称是 Doutianba">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo+github">
+<meta property="og:url" content="http://yoursite.com/2017/02/12/Hexo-github/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:updated_time" content="2017-02-12T10:50:01.865Z">
+<meta property="og:description" content="hexo+github 搭建个人免费博客，值得拥有：）
+
+此流程在debian 8.7 x64下运行
+准备工作Github
+注册个Github帐号。
+这是一个全球程序员搞基平台
+有众多优秀开源项目
+大牛无数，举个栗子： NASA， Google, Microsoft …
+
+
+建立一个与你名字（注册名）相对应的仓库。
+举个栗子： 我的名字是Doutianbao, 所以仓库名称是 Doutianba">
+<meta property="og:updated_time" content="2017-02-12T12:43:57.749Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
+<meta name="twitter:title" content="Hexo+github">
+<meta name="twitter:description" content="hexo+github 搭建个人免费博客，值得拥有：）
+
+此流程在debian 8.7 x64下运行
+准备工作Github
+注册个Github帐号。
+这是一个全球程序员搞基平台
+有众多优秀开源项目
+大牛无数，举个栗子： NASA， Google, Microsoft …
+
+
+建立一个与你名字（注册名）相对应的仓库。
+举个栗子： 我的名字是Doutianbao, 所以仓库名称是 Doutianba">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -162,27 +198,74 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="page-undefined" class="article article-type-page " itemscope itemprop="blogPost">
+            <article id="post-Hexo-github" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      categories
+      Hexo+github
     </h1>
   
 
         
-        <a href="/categories/index.html" class="archive-article-date">
-  	<time datetime="2017-02-12T10:49:35.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017年 2月 12日</time>
+        <a href="/2017/02/12/Hexo-github/" class="archive-article-date">
+  	<time datetime="2017-02-12T11:51:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017年 2月 12日</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <blockquote>
+<p>hexo+github 搭建个人免费博客，值得拥有：）</p>
+</blockquote>
+<p><strong>此流程在debian 8.7 x64下运行</strong></p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><h3 id="Github"><a href="#Github" class="headerlink" title="Github"></a>Github</h3><ol>
+<li>注册个<a href="www.github.com">Github</a>帐号。<ul>
+<li>这是一个全球程序员搞基平台</li>
+<li>有众多优秀开源项目</li>
+<li>大牛无数，举个栗子： NASA， Google, Microsoft …</li>
+</ul>
+</li>
+<li>建立一个与你<em>名字（注册名）</em>相对应的仓库。<ul>
+<li>举个栗子： 我的名字是Doutianbao, 所以仓库名称是 Doutianbao.github.io</li>
+<li>大小写啥的都一致。Or, try it yourself.</li>
+</ul>
+</li>
+</ol>
+<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><blockquote>
+<p><a href="https://github.com/hexojs/hexo" target="_blank" rel="external">Hexo</a> A fast, simple &amp; powerful blog framework, powered by Node.js.</p>
+</blockquote>
+<ol>
+<li>因此我们的先安装<a href="https://nodejs.org/en/" target="_blank" rel="external">Node</a></li>
+</ol>
+<a id="more"></a>
+<pre><code>给你一个偷懒的机会吧
+</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$cd</span> ~/Downloads</div><div class="line"><span class="variable">$wget</span> https://nodejs.org/dist/v6.9.5/node-v6.9.5-linux-x64.tar.xz</div><div class="line"> <span class="variable">$tar</span> xzvf node-v6.9.5-linux-x64.tar.xz</div><div class="line"><span class="variable">$gedit</span> ~/.bashrc</div></pre></td></tr></table></figure>
+<pre><code>Gedit编辑器打开文件后在末尾添加
+export PATH=~/Downloads/node-v6.9.5-linux-x64/bin:$PATH
+
+**注意**Downloads 在你电脑上  估计是  下载 。注意替换:)
+</code></pre><ol>
+<li><a href="https://www.npmjs.com/" target="_blank" rel="external">NPM</a>通常称为node包管理器。顾名思义，它的主要功能就是管理node包，包括：安装、卸载、更新、查看、搜索、发布等。<br> 所以，我们要将NPM源改成国内的，才能继续装比。<br> 方法如下：<blockquote>
+<p> 编辑 ~/.npmrc，添加registry=<a href="http://npmreg.mirrors.ustc.edu.cn/" target="_blank" rel="external">http://npmreg.mirrors.ustc.edu.cn/</a></p>
+</blockquote>
+</li>
+<li>Hexo安装<br> 加入你将且愿意你的blog本地文件夹设置为～/blog<br> 那么: <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$cd</span> <span class="built_in">cd</span> ~/blog </div><div class="line"><span class="variable">$npm</span> install hexo-cli -g</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>等待结束吧～中间可能会有提示（waring）无伤大雅，不出现ERR就行。</p>
+<p>安装完毕！</p>
+<h3 id="Hexo使用"><a href="#Hexo使用" class="headerlink" title="Hexo使用"></a>Hexo使用</h3><h5 id="常见命令解析："><a href="#常见命令解析：" class="headerlink" title="常见命令解析："></a>常见命令解析：</h5><blockquote>
+<p>开启本地服务： hexo server (hexo s)<br>发布新文章： hexo new “postname”<br>发布新页面： hexo newpage “pagename”<br>清理缓存： hexo clean<br>生成静态文件： hexo generate (hexo g)<br>远程部署： hexo depoly (hexo d)</p>
+</blockquote>
+<p>一般部署流程流程：hexo clean –&gt; hexo new “postname” –&gt; hexo g –&gt; hexo d<br><strong>hexo s</strong>后，可以浏览器<a href="http://localhost:4000" target="_blank" rel="external">观看本地效果</a>，满意了，按CTR+C退出，再部署</p>
+<blockquote>
+<p>第一次用Markdown写作，好累～下次续写吧。</p>
+</blockquote>
+
       
 
       
@@ -217,6 +300,17 @@
       
       
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/IT/" class="article-tag-list-link color3">IT</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -266,7 +360,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/categories/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/02/12/Hexo-github/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -310,7 +404,7 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
